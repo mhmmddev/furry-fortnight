@@ -11,21 +11,74 @@
     <title>Ahuh</title>
 </head>
 <body>
-    <nav>
-        <div class="row">
-            <div class="col">
-                Logo left
+    <nav class="navbar navbar-light bg-light">
+        <nav class="col">
+            <a class="navbar-brand" href="#">
+                <img src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                Bootstrap
+            </a>
+        </nav>
+        <nav class="col">
+            <button class="btn btn-primary float-right">
+                Login
+            </button>
+        </nav>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron text-center mt-5">
+            <h1 class="display-4">The Only Link You’ll Ever Need</h1>
+            <p class="lead">Connect audiences to all of your content with just one link.</p>
+        </div>
+        
+        <div class="join bg-light text-center p-5">
+            <div class="row justify-content-center">
+                <div class="col-sm-8">
+                    <h2>Start by finding your username</h2>
+                </div>
             </div>
-            <div class="col">
-                <button class="btn btn-primary">
-                    Login
-                </button>
+            <div class="row justify-content-md-center mt-4">
+                <div class="col-sm-4">
+                    <form>
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" class="form-control" id="username" aria-describedby="usernamehelp" placeholder="SuperDragon1203434">
+                            <small id="usernamehelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
-    </nav>
-    <footer>
-        Footer
-    </footer>
+    
+        <div class="benefits m-5 text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="mb-4">Benefit</h3>
+                    <img src="https://picsum.photos/350/150" class="img-fluid rounded" alt="Responsive image">
+                    <p class="mt-4">Here's a short explainer of the benefit which flows over two lines to look better!</p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="mb-4">Benefit</h3>
+                    <img src="https://picsum.photos/350/150" class="img-fluid rounded" alt="Responsive image">
+                    <p class="mt-4">Here's a short explainer of the benefit which flows over two lines to look better!</p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="mb-4">Benefit</h3>
+                    <img src="https://picsum.photos/350/150" class="img-fluid rounded" alt="Responsive image">
+                    <p class="mt-4">Here's a short explainer of the benefit which flows over two lines to look better!</p>
+                </div>
+            </div>
+        </div>
+    
+
+        <footer>
+            <div class="row">
+                <div class="col">
+                    Footer
+                </div>
+            </div>
+        </footer>
+    </div>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
